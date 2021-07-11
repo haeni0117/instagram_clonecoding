@@ -5,7 +5,7 @@ front-end와 back-end 모두 배울 수 있는 좋은 강의인데다, 코딩 �
 - HTML(Hyper Text Markup Language : 하이퍼텍스트 마크업 언어)
   - 웹을 만들기 위한 가장 기초적인 언어!
   - html은 프로그래밍 언어가 아니다.(몰랐다...)
-    - ![pic1](./img/스크린샷0711_2.png)
+    - <img src="./img/스크린샷0711_2.png" width="400" height="400">
   - 
   - 하이퍼텍스트란 ? 
     - 참조를 통해 한 문서에서 다른 문서로 즉시 이동할 수 있는 텍스트
