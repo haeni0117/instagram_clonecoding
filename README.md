@@ -24,11 +24,11 @@ front-end와 back-end 모두 배울 수 있는 좋은 강의인데다, 코딩 �
 ![pic1](./img/스크린샷0711_5.png)
 - CSS(Cascading Style Sheet : 캐스캐이딩 스타일 시트 *캐스캐이딩 : 계단식, 위에서 아래로 흐르는*)
   - 스타일시트 : 글꼴의 크기, 모양, 컬러, 문단 설정 등 미리 정의해 스타일로 만들었다가 웹문서의 본문에서 그 스타일을 참조하여 사용하는 기능 -> html은 뼈대 css는 살인 것이다.
-    - ![pic1](./img/스크린샷0711_9.png)
+  - ![pic1](./img/스크린샷0711_9.png)
 - Javascript(JS) : JAVA의 명성에 힘입기 위해 이름을 따온 것 말고는 따로 연관성 없다. -> 동적언어(근육,액션)
   - c.f. HTML,CSS : 정적언어
   - 제주코딩베이스캠프의 웹사이트는 매우 동적이다.(http://www.jejucodingcamp.com/) by javascript
-    - ![pic1](./img/스크린샷0711_8.png)
+  - ![pic1](./img/스크린샷0711_8.png)
 - 그렇다면 css,html,javascript만 알면 프론트엔드(front-end) 개발자?! NONONO
   - jquery 알면 좋고 + node/express 중 하나를 셀렉해서 공부를 하면 좋을 것이다.
 - 백엔드(back-end) : cloud, version, app, DB, AI, 시각화, 크롤링까지 여러 분야가 있다. 
