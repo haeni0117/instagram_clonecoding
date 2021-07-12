@@ -5,10 +5,11 @@
 ![pic1](./img/프론트엔드1강_2.png)
 -> 무료 사용하고 싶으면 atom추천(vscode, bracket,etc.. 뭐든 상관없음!)
 1. 인스타그램 클론코딩할 폴더를 만들어주자
-  ![pic1](./img/프론트엔드1강_3.png)
+![pic1](./img/프론트엔드1강_3.png)
 2. 클론코딩 폴더 안에 <Css> directory 생성해주자.
 
 ## header 공부내용 정리
+![pic1](./img/header실습0712_1.png)
 
   
   
