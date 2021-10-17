@@ -118,7 +118,7 @@ body {
   height: 77px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 #header .inner .logo > a {
@@ -127,12 +127,14 @@ body {
 #header .inner .logo .sprite_insta_icon {
   position: relative;
 }
-#header .inner .logo .sprite_insta_icon after {
+#header .inner .logo .sprite_insta_icon:after {
   content: " ";
   width: 1px;
   height: 28px;
   background: #000;
   position: absolute;
+  right: -15px;
+  top: 0;
 }
 #header .inner .logo div {
   vertical-align: middle;
@@ -150,4 +152,112 @@ body {
   font-size: 14px;
   outline: none;
 }
-#header .search_box input;
+#main_container {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+#main_container .inner {
+  width: 935px;
+  height: 500px;
+  background: red;
+}
+.contents_box {
+}
+.contents {
+  width: 614px;
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background: white;
+}
+.contents_box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.contents_box .top .user_img {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.contents_box .top .user_img img {
+  width: 100%;
+  /* 부모의 100퍼센트를 가져가라 */
+}
+.contents_box .top .user_container {
+  display: flex;
+}
+.m_text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.s_text {
+  font-size: 12px;
+}
+/* 중복되는 부분은 클래스로 미리 정의후 불러오기 */
+.contents .img_section {
+  overflow: hidden;
+}
+.contents .img_section img {
+  width: 100%;
+}
+.contents .bottom_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.contents .left_icons {
+  display: flex;
+}
+.contents .left_icons > div {
+  margin-right: 10px;
+}
+.contents .likes {
+  padding: 5px 20px;
+  color: #262626;
+}
+.contents .comment_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.contents .comment_container .comment {
+  display: flex;
+  font-size: 12px;
+}
+.contents .comment_container .nick_name {
+  margin-right: 10px;
+}
+.contents .timer {
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  padding: 10px 20px;
+}
+.contents .comment_field {
+  min-height: 56px;
+  padding: 0 20px;
+  position: relative;
+}
+.contents .comment_field input {
+  width: 100%;
+  height: 56px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.contents .comment_field upload_btn {
+  color: #3897f0;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  cursor:  ;
+}
